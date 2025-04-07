@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 8rem auto;
+}
+
+.section{
+    width: 180px;
+    height: 230px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 3rem;
+    transition: all 0.3s ease;
+}
+
+.eyes{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.eye{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: black;
+}
+.section:hover{
+    transform: scaleY(1.2)
+}
